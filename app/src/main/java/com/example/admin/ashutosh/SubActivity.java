@@ -5,4 +5,10 @@ package com.example.admin.ashutosh;
  */
 
 public class SubActivity {
+
+
+    void methodDivide(){
+        int x=8,y=8;
+        int z=x/y;
+    }
 }
