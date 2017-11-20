@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF00"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="100sp"
+        android:id="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:text="P"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_below="@+id/tv"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:text="The world of news, facts, tweet etc.\nthrough reimagined expericence of\n magazines"/>
+    <RelativeLayout
+        android:id="@+id/rlSmall"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_weight="1"
+        android:background="@android:color/white"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:id="@+id/tvText"
+            android:textColor="#808080"
+            android:layout_centerHorizontal="true"
+            android:text="Don't worry we won't share anything\n without your permission"/>
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true"
+           android:layout_margin="10dp"
+           android:textColor="#808080"
+           android:layout_alignParentBottom="true"
+           android:text="Skip"/>
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/circular"
+        android:text="Continue with facebook" />
+
+
+
+
+</RelativeLayout>
