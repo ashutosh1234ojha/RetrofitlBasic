@@ -13,5 +13,8 @@ public class SubActivity {
 
         int z=x/y;
         Log.d("MES","DF");
+        Log.e("Tag",z+"0");
+
+
     }
 }
