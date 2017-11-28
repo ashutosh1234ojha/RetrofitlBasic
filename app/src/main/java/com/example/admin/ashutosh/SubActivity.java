@@ -9,8 +9,8 @@ import android.util.Log;
 public class SubActivity {
 
 
-    void methodDivide(){
-        int x=8,y=8;
+    void methodDivide(int x, int y){
+
         int z=x/y;
         Log.d("MES","DF");
     }
